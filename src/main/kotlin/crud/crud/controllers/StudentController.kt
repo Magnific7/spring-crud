@@ -1,5 +1,7 @@
-package crud.crud
+package crud.crud.controllers
 
+import crud.crud.repositories.StudentRepository
+import crud.crud.models.Student
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping
