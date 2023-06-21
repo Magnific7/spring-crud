@@ -22,4 +22,5 @@ class StudentController(val studentRepository: StudentRepository) {
         val student = studentRepository.save(student)
         return ResponseEntity.ok(student)
     }
+
 }
